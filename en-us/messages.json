@@ -1,0 +1,122 @@
+{
+  "polyfill_init": {
+    "message": "Initializing Polyfill...",
+    "description": "Logging message."
+  },
+  "polyfill_notFound": {
+    "message": "%s not found. Adding...",
+    "description": "Logging message. %s should always be a noun."
+  },
+  "polyfill_finishedInit": {
+    "message": "Finished initializing Polyfill.",
+    "description": "Logging message."
+  },
+  "instanceManager_startInstance": {
+    "message": "Starting instance.",
+    "description": "Logging message."
+  },
+  "instanceManager_stopInstance": {
+    "message": "Stopping instance.",
+    "description": "Logging message."
+  },
+  "instanceManager_shutdown": {
+    "message": "Last instance stopped, shutting down.",
+    "description": "Logging message."
+  },
+  "instanceManager_reload": {
+    "message": "Reloading instance.",
+    "description": "Logging message."
+  },
+  "gitProcessor_noListen": {
+    "message": "Attempted to listen while already listening.",
+    "description": "Logging message."
+  },
+  "gitProcessor_initListener": {
+    "message": "Initializing GitHub Webhook listener.",
+    "description": "Logging message."
+  },
+  "gitProcessor_receiveWebhook": {
+    "message": "Github Webhook received.",
+    "description": "Logging message."
+  },
+  "gitProcessor_handleWebhook": {
+    "message": "Handling Webhook.",
+    "description": "Logging message."
+  },
+  "gitProcessor_alert": {
+    "message": "Alerting clients of Git changes.",
+    "description": "Logging message, used in Git update process."
+  },
+  "gitProcessor_commit": {
+    "message": "commit",
+    "description": "User-facing string, used in Git change messages."
+  },
+  "gitProcessor_commits": {
+    "message": "commits",
+    "description": "User-facing string, used in Git change messages."
+  },
+  "gitProcessor_force": {
+    "message": "force",
+    "description": "User-facing string, used in Git change messages."
+  },
+  "gitProcessor_pushedTo": {
+    "message": "pushed to",
+    "description": "User-facing string, used in Git change messages."
+  },
+  "gitProcessor_new": {
+    "message": "new",
+    "description": "User-facing string, used in Git change messages."
+  },
+  "gitProcessor_tag": {
+    "message": "tag",
+    "description": "User-facing string, used in Git change messages."
+  },
+  "gitProcessor_branch": {
+    "message": "branch",
+    "description": "User-facing string, used in Git change messages."
+  },
+  "gitProcessor_by": {
+    "message": "by",
+    "description": "User-facing string, used in Git change messages."
+  },
+  "gitProcessor_updateToBranch": {
+    "message": "Updating to branch: ",
+    "description": "Logging message. Note the space at the end, which is necessary."
+  },
+  "gitProcessor_npmInstall": {
+    "message": "Executing npm install.",
+    "description": "Logging message. 'npm install' is a command, and therefore, should probably be left as-is."
+  },
+  "gitProcessor_updating": {
+    "message": "I'm updating! :3",
+    "description": "This message is used as the disconnect message in IRC. This message can be stylized with emoticons."
+  },
+  "caughtException": {
+    "message": "Exception caught: %s",
+    "description": "Logging message. Used when an exception has been caught."
+  },
+  "none": {
+    "message": "none",
+    "description": "Logging message. Used when an exception has been caught."
+  },
+  "alert_name": {
+    "message": "Alert",
+    "description": "The name of the alert command."
+  },
+  "alert_help": {
+    "message": "Adds/Removes channels the bot will alert when updates occur. This command will reply with all alerted channels when not supplied with any parameters.",
+    "description": "Help string for the alert command."
+  },
+  "alert_usage": {
+    "message": "[+|-] | [[-]channel]...",
+    "description": "Usage string for the alert command. The only word that needs changing is 'channel'."
+  },
+  "alert_current": {
+    "message": "Currently alerting: ",
+    "description": "User-facing string that is used in the alert command. Note the required space at the end."
+  },
+  "alert_changes": {
+    "message": "Alert changes: ",
+    "description": "User-facing string that is used in the alert command. Note the required space at the end."
+  }
+}

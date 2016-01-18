@@ -23,12 +23,15 @@ function languageLoader() {
     var languages = {};
     var files = require('fs').readdirSync(__dirname + '/');
     for (var i = 0; i < files.length; i++) {
-        var file = files[i];
-        if(file.match(/.+\.json/g) !== null) {
-            var locale = file.split('.')[0];
-            var fileStr = file.split('.')[1];
-            languages[locale] = {};
-            languages[locale][fileStr] = require('./' + file);
+        var locale = files[i];
+        var json = null;
+        try {
+            json = require('fs').readFileSync(files[i] + '/messages.json', {encoding: 'utf-8'});
+        } catch (e) {
+            json = null;
+        }
+        if(json) {
+          languages[locale] = JSON.parse(json);
         }
     }
 
