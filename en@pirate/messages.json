@@ -1,0 +1,122 @@
+{
+    "alert_help": {
+        "message": "Adds/Removes channels the bot will alert when updates occur. This command will reply with all alerted channels when not supplied with any parameters.",
+        "description": "Help string for the alert command."
+    },
+    "gitProcessor_handleWebhook": {
+        "message": "Handlin' Webhook!",
+        "description": "Logging message."
+    },
+    "alert_changes": {
+        "message": "Alert changes: ",
+        "description": "User-facing string that is used in the alert command. Note the required space at the end."
+    },
+    "gitProcessor_tag": {
+        "message": "tag",
+        "description": "User-facing string, used in Git change messages."
+    },
+    "gitProcessor_alert": {
+        "message": "Alertin' clients of Git changes!",
+        "description": "Logging message, used in Git update process."
+    },
+    "gitProcessor_updating": {
+        "message": "Ahoy matey, I'll be back faster than you can say \"Cap'n Redbeard\"! I'm updatin'!",
+        "description": "This message is used as the disconnect message in IRC. This message can be stylized with emoticons."
+    },
+    "gitProcessor_receiveWebhook": {
+        "message": "Github Webhook received.",
+        "description": "Logging message."
+    },
+    "gitProcessor_branch": {
+        "message": "branch",
+        "description": "User-facing string, used in Git change messages."
+    },
+    "gitProcessor_npmInstall": {
+        "message": "Executin' npm install!",
+        "description": "Logging message. 'npm install' is a command, and therefore, should probably be left as-is."
+    },
+    "alert_current": {
+        "message": "Currently alerting: ",
+        "description": "User-facing string that is used in the alert command. Note the required space at the end."
+    },
+    "alert_usage": {
+        "message": "[+|-] | [[-]channel]...",
+        "description": "Usage string for the alert command. The only word that needs changing is 'channel'."
+    },
+    "instanceManager_startInstance": {
+        "message": "Startin' instance!",
+        "description": "Logging message."
+    },
+    "gitProcessor_pushedTo": {
+        "message": "pushed to",
+        "description": "User-facing string, used in Git change messages."
+    },
+    "gitProcessor_by": {
+        "message": "by",
+        "description": "User-facing string, used in Git change messages."
+    },
+    "none": {
+        "message": "none",
+        "description": "Logging message. Used when an exception has been caught."
+    },
+    "caughtException": {
+        "message": "We caught us an exception, cap'n! %s",
+        "description": "Logging message. Used when an exception has been caught."
+    },
+    "gitProcessor_commits": {
+        "message": "commits",
+        "description": "User-facing string, used in Git change messages."
+    },
+    "alert_name": {
+        "message": "Alert",
+        "description": "The name of the alert command."
+    },
+    "gitProcessor_noListen": {
+        "message": "Tryin' tah listen while already listenin'!",
+        "description": "Logging message."
+    },
+    "polyfill_init": {
+        "message": "Startin' the Polyfill...",
+        "description": "Logging message."
+    },
+    "polyfill_notFound": {
+        "message": "%s ain't been found! I'm addin' 'er now, matey!",
+        "description": "Logging message. %s should always be a noun."
+    },
+    "gitProcessor_new": {
+        "message": "new",
+        "description": "User-facing string, used in Git change messages."
+    },
+    "instanceManager_stopInstance": {
+        "message": "Stoppin' instance!",
+        "description": "Logging message."
+    },
+    "gitProcessor_initListener": {
+        "message": "Startin' the GitHub Webhook list'ner!",
+        "description": "Logging message."
+    },
+    "gitProcessor_force": {
+        "message": "force",
+        "description": "User-facing string, used in Git change messages."
+    },
+    "gitProcessor_updateToBranch": {
+        "message": "Updating to branch: ",
+        "description": "Logging message. Note the space at the end, which is necessary."
+    },
+    "polyfill_finishedInit": {
+        "message": "The Polyfill's all done now, cap'n!",
+        "description": "Logging message."
+    },
+    "instanceManager_shutdown": {
+        "message": "Last instance been stopped, shuttin' down!",
+        "description": "Logging message."
+    },
+    "instanceManager_reload": {
+        "message": "Reloadin' instance!",
+        "description": "Logging message."
+    },
+    "gitProcessor_commit": {
+        "message": "commit",
+        "description": "User-facing string, used in Git change messages."
+    }
+}
