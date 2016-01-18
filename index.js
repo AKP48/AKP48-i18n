@@ -26,7 +26,7 @@ function languageLoader() {
         var locale = files[i];
         var json = null;
         try {
-            json = require('fs').readFileSync(files[i] + '/messages.json', {encoding: 'utf-8'});
+            json = require('fs').readFileSync(__dirname + '/' + files[i] + '/messages.json', {encoding: 'utf-8'});
         } catch (e) {
             json = null;
         }
